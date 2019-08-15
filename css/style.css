@@ -1,0 +1,27 @@
+h1 {
+  background-color: red; }
+  h1 * {
+    padding: 0;
+    margin: 0; }
+
+.banner {
+  width: 100%; }
+
+.container {
+  max-width: 1185px;
+  margin: auto; }
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding-top: 16px; }
+
+.logo {
+  padding-bottom: 5px; }
+
+.menu {
+  font-size: 50px;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
