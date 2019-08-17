@@ -24,19 +24,27 @@ header {
   font-size: 50px;
   color: white; }
 
+.container {
+  display: flex;
+  justify-content: space-between; }
+
 .yel {
   color: #efe1b4;
-  padding-top: 85px;
-  text-align: center; }
+  padding-top: 85px; }
 
 h2 {
-  text-align: center;
   padding-top: 30px; }
 
 .little {
-  text-align: center;
-  font-size: 18px;
+  font-size: 18px; }
+
+.st {
+  margin: auto;
   max-width: 760px;
-  position: absolute; }
+  text-align: center; }
+
+.read {
+  padding: 29px 25px;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
