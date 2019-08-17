@@ -6,7 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 <header>
@@ -14,24 +18,54 @@
         <a href="#" class="logo">
             <img src="images/logo.png" alt="">
         </a>
+        <p class="text">
+            Say Haloa to your Portfolio
+        </p>
     </div>
+    <div class="overlay">
+        <nav class="overlayMenu">
+            <ul role="menu">
+                <li><a href="#we" role="menuitem">WHO WE ARE</a></li>
+                <li><a href="#do" role="menuitem">WHAT WE DO</a></li>
+                <li><a href="#" role="menuitem">Educated</a></li>
+                <li><a href="#" role="menuitem">Decorum</a></li>
+                <li><a href="#" role="menuitem">Tenuous</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="navBurger" role="navigation" id="navToggle"></div>
 </header>
 <div class="banner">
     <img src="images/bg1.png" alt="">
 </div>
 <div class="st">
-    <p class="yel">WHO WE ARE</p>
+    <p class="yel" id="we">WHO WE ARE</p>
     <h2>
         Tell The World About Yourself
     </h2>
     <p class="little">
         Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.
     </p>
-    <button class="read">READ MORE ABOUT US</button>
+    <div id="dialog" title="Sad js">
+        <img src="images/pepe.png" alt="Pepe">
+    </div>
+    <button id="opener">READ MORE ABOUT US</button>
 
-    <p class="yel">WHAT WE DO</p>
+    <p class="yel" id="do">WHAT WE DO</p>
     <h2>Show Your Amazing Work</h2>
 </div>
 
+<div class="image">
+    <img src="images/1.png" alt="">
+    <img src="images/2.png" alt="">
+    <img src="images/3.png" alt="">
+    <img src="images/4.png" alt="">
+    <img src="images/5.png" alt="">
+    <img src="images/6.png" alt="">
+    <img src="images/7.png" alt="">
+    <img src="images/8.png" alt="">
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
